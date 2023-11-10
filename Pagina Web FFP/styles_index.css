@@ -4,7 +4,6 @@
     border: 0;
     font-size: 100%;
     vertical-align: baseline;
-    box-sizing: border-box;
 }
 
 body {
@@ -59,11 +58,11 @@ header {
 }
 
 .header {
+    height: 60vh !important;
     background: url(Imagenes/Leonardita.jpg) no-repeat center;
     background-size: cover;
-    image-rendering: auto;
+    image-rendering: pixelated; /* changed from high-quality to pixelated */
 }
-
 
 .title {
     margin-bottom: 40px;
@@ -103,18 +102,16 @@ p {
 }
 
 .content {
-    height: 100vh;
+    height: 50vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #fff;
 }
 
 .sau {
     padding: 30px;
     background-color: goldenrod;
-    height: 100vh;
 }
 
 .box-container {
@@ -158,7 +155,6 @@ p {
 
 .about {
     background: #101010;
-    height: 100vh;
 }
 
 .price {
@@ -166,35 +162,18 @@ p {
     background-attachment: fixed;
     background-size: cover;
     text-align: center;
-    height: 100vh;
 }
 
 .contact {
     padding-top: 40px;
     background-color: #000080;
-    color: #fff;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.contact h2 {
-    margin-top: 50px; /* Ajusta el margen superior del título */
-    margin-bottom: 20px;
-}
-
-.contact p {
-    padding: 0 50px; /* Ajusta el relleno del texto */
-    text-align: center;
+    color: #fff; /* Asegura que el texto esté en color blanco */
 }
 
 .annex {
     background-color: #000000;
     padding: 30px;
     color: #fff;
-    height: 100vh;
 }
 
 @media screen and (max-width: 768px) {

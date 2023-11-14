@@ -12,6 +12,14 @@ body {
     font-family: sans-serif;
 }
 
+p {
+    margin-bottom: 40px;
+    font-size: 20px;
+    color: #fff;
+    padding: 0 100px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.404);
+}
+
 .head {
     display: flex;
     align-items: center;
@@ -59,11 +67,12 @@ header {
 }
 
 .header {
-    background: url(Imagenes/Leonardita.jpg) no-repeat center;
+    background: url(Imagenes/Anexo\ 1.jpg) no-repeat center;
     background-size: cover;
     image-rendering: auto;
+    line-height: 1.5;
+    font-size: 5em;
 }
-
 
 .title {
     margin-bottom: 40px;
@@ -71,6 +80,9 @@ header {
     font-weight: 600;
     text-transform: uppercase;
     color: #fff;
+    position: relative;
+    z-index: 1;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Ajusta los valores según sea necesario */
 }
 
 p {
@@ -162,7 +174,7 @@ p {
 }
 
 .price {
-    background: url(Imagenes/Tren\ FI.jpg) no-repeat center;
+    background: url(Imagenes/Anexo\ 3.jpg) no-repeat center;
     background-attachment: fixed;
     background-size: cover;
     text-align: center;
@@ -181,20 +193,24 @@ p {
 }
 
 .contact h2 {
-    margin-top: 50px; /* Ajusta el margen superior del título */
+    margin-top: 50px; 
     margin-bottom: 20px;
 }
 
 .contact p {
-    padding: 0 50px; /* Ajusta el relleno del texto */
+    padding: 0 50px; 
     text-align: center;
 }
 
 .annex {
-    background-color: #000000;
+    text-align: justify;
+    background: url(Imagenes/Anexo\ 4.jpg) no-repeat center;
+    background-size: cover;
+    image-rendering: auto;
     padding: 30px;
     color: #fff;
     height: 100vh;
+    line-height: 1.5;
 }
 
 @media screen and (max-width: 768px) {
